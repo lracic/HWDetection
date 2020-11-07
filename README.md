@@ -1,12 +1,12 @@
 # HW Recognition #
 
-**API URL:** http://51.195.100.125:5000/analyze
+**API URL:** http://51.195.100.125:5000/analyze<br />
 **Method:** POST<br />
-**Required Input:** file
-**Postman collection:** Last page
+**Required Input:** file<br />
+**Postman collection:** Last page<br />
 
-Output: List of rectangle objects
-Rectangle object is defined as:
+**Output:** List of rectangle objects<br />
+Rectangle object is defined as:<br />
 
 `{
     'min_x': float,
@@ -15,7 +15,7 @@ Rectangle object is defined as:
     'max_y': float  
 }`
 
-Sample of output:
+Sample of output:<br />
 
 `[
     {
@@ -32,17 +32,17 @@ Sample of output:
     },
 ]`
 
-**Test page:** http://51.195.100.125:5000/
-**CSS:** to be added
-**Description:**
+**Test page:** http://51.195.100.125:5000/<br />
+**CSS:** to be added<br />
+**Description:**<br />
 
-At the moment, the API is returning *test data* (a box around 10% of the border of the image) since the training of the network unfortunately failed last night. The training is in the progress at the moment and as soon as it is done, the API will be updated.
+At the moment, the API is returning *test data* (a box around 10% of the border of the image) since the training of the network unfortunately failed last night. The training is in the progress at the moment and as soon as it is done, the API will be updated.<br />
 
-After the model is done training and the API is updated, the bounding boxes will be drawn with the coordinates that the model outputs as predictions of where handwritten data is on the page.  
+After the model is done training and the API is updated, the bounding boxes will be drawn with the coordinates that the model outputs as predictions of where handwritten data is on the page.  <br />
 
 
  
-Postman collection:
+Postman collection:<br />
 
 `{
     "info": {
