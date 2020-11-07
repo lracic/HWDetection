@@ -1,4 +1,4 @@
-#HW Recognition#
+# HW Recognition #
 
 **API URL:** http://51.195.100.125:5000/analyze
 **Method:** POST
@@ -8,11 +8,11 @@
 Output: List of rectangle objects
 Rectangle object is defined as:
 
-`{
-    'min_x': float, 
-    'max_x': float, 
-    'min_y': float, 
-    'max_y': float 
+`{\
+    'min_x': float, \
+    'max_x': float, \
+    'min_y': float, \
+    'max_y': float \
 }`
 
 Sample of output:
