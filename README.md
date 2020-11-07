@@ -8,16 +8,19 @@
 **Output:** List of rectangle objects<br />
 Rectangle object is defined as:<br />
 
-```{
+```
+{
     'min_x': float,
     'max_x': float,   
     'min_y': float,  
     'max_y': float  
-}```
+}
+```
 
 Sample of output:<br />
 
-`[
+```
+[
     {
         'min_x': 100, 
         'max_x': 200, 
@@ -30,7 +33,8 @@ Sample of output:<br />
         'min_y': 500, 
         'max_y': 700
     },
-]`
+]
+```
 
 **Test page:** http://51.195.100.125:5000/<br />
 **CSS:** to be added<br />
@@ -42,9 +46,10 @@ After the model is done training and the API is updated, the bounding boxes will
 
 
  
-Postman collection:<br />
+**Postman collection:**<br />
 
-`{
+```
+{
     "info": {
         "name": "HW Recognition",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -84,6 +89,7 @@ Postman collection:<br />
         }
     ],
     "protocolProfileBehavior": {}
-}`
+}
+```
 
 
