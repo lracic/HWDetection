@@ -8,8 +8,8 @@
 Output: List of rectangle objects
 Rectangle object is defined as:
 
-`{  
-    'min_x': float,  
+`{<br />
+    'min_x': float,<br />
     'max_x': float,   
     'min_y': float,  
     'max_y': float  
