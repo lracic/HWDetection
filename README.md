@@ -1,15 +1,15 @@
 # HW Recognition #
 
 **API URL:** http://51.195.100.125:5000/analyze
-**Method:** POST
+**Method:** POST<br />
 **Required Input:** file
 **Postman collection:** Last page
 
 Output: List of rectangle objects
 Rectangle object is defined as:
 
-`{<br />
-    'min_x': float,<br />
+`{
+    'min_x': float,
     'max_x': float,   
     'min_y': float,  
     'max_y': float  
